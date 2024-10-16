@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Security Boss</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilos.css"> 
+  <style>
+    body {
+      /* Puedes agregar estilos adicionales aquí si es necesario */
+    }
+  </style>
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg" style="font-size: 1.2rem;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/Logo.png" alt="Logo" class="d-inline-block align-text-top" style="width: 80px; height: auto;">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="Productos.html">Productos</a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="Quienes somos.html">¿Quiénes somos?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="Responsabilidad social.html">Responsabilidad Social</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="Sectores.html">Sectores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-light" href="Contactanos.html">Contáctanos</a>
+          </li>
+          <li class="nav-item">
+            <form class="d-flex">
+              <input type="search" class="form-control form-control-sm me-2 custom-search" placeholder="Buscar..." aria-label="Buscar">
+              <button class="btn btn-outline-light btn-sm" type="submit">Buscar</button>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="slider-container">
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/imagen1.jpg" class="d-block w-100" alt="Slide 1">
+          <div class="carousel-caption d-none d-md-block"></div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/imagen2.jpeg" class="d-block w-100" alt="Slide 2">
+          <div class="carousel-caption d-none d-md-block"></div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/imagen3.jpg" class="d-block w-100" alt="Slide 3">
+          <div class="carousel-caption d-none d-md-block"></div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="contenedor1 display-4 text-center">
+    <h2>Servicios en seguridad</h2>
+    <hr>
+    <p>
+      Somos los agentes más confiables a la hora de implementar medidas de seguridad para que tu seguridad e integridad no se vean comprometidas. 
+      Realizamos soluciones completas de seguridad de alto valor, a partir de las necesidades reales de cada uno de nuestros clientes. 
+      Gestionamos soluciones con las últimas tecnologías disponibles y desarrollos tecnológicos que ofrece el mercado.
+    </p>
+    <button type="button" class="btn btn-light" onclick="location.href='productos.html'">Conoce nuestro catálogo digital</button>
+    <hr>
+  </div>
+
+  <div class="slider-container" style="background-color: white; padding: 20px; margin-top: 20px;">
+    <h2 class="text-center">Seguridad para tus espacios</h2>
+    <hr>
+    
+    <div class="d-flex justify-content-between">
+      <div class="imagenes text-center" style="margin-right: 70px;">
+        <img src="img/Catalogo1.png" alt="Sistema antibandalismo">
+        <br>
+        <button type="button" class="btn btn-primary btn-lg" onclick="location.href='Sistemas anti vandalismo.html'">Sistema antibandalismo</button>
+      </div>
+      <div class="imagenes text-center" style="margin-right: 70px;">
+        <img src="img/Catalogo2.png" alt="Video analítica">
+        <br>
+        <button type="button" class="btn btn-primary btn-lg" onclick="location.href='Analitica.html'">Video analítica</button>
+      </div>
+      <div class="imagenes text-center" style="margin-right: 70px;">
+        <img src="img/catalogo3.png" alt="Sistemas de intrusión">
+        <br>
+        <button type="button" class="btn btn-primary btn-lg" onclick="location.href='Sistemas de intrusión.html'">Sistemas de intrusión</button>
+      </div>
+      <div class="imagenes text-center">
+        <img src="img/Catalogo4.png" alt="Detección de incendios">
+        <br>
+        <button type="button" class="btn btn-primary btn-lg" onclick="location.href='Sistema detección de incendios.html'">Detección de incendios</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="contenedor1 display-4 text-center">
+    <h2>Contáctanos</h2>
+    <hr>
+  </div>
+
+  <div class="contenedor1 display-4">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="img/publicidad1.png" alt="Descripción de la imagen" class="img-fluid"> 
+      </div>
+      <div class="col-md-6 text-center text-md-start">
+        <h2>Soluciones de seguridad</h2>
+        <hr>
+        <p class="fs-1">
+          Somos una organización especializada en seguridad con cobertura a nivel rural.
+        </p>
+        <p class="fs-1">
+          Nuestra experiencia en el sector nos ha permitido ofrecer productos de gran calidad a precios bajos, brindando atención especializada y soluciones que responden a las necesidades de nuestros clientes, principalmente empresas calificadas.
+        </p>
+        <br>
+        <button type="button" class="btn btn-light col-md-12" onclick="location.href='productos.html'">Conoce nuestro catálogo digital</button>
+        <hr>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 text-center">
+      <img src="img/formulario1.png" alt="Descripción de la imagen" class="img-fluid" style="margin-bottom: 0;">
+    </div>
+    <div class="col-md-6 text-center text-md-start">
+      <h2>Haz parte de Security Boss S.A.S</h2>
+      <hr>
+      <p class="fs-3">
+        Escribe tu correo electrónico en el siguiente campo para recibir información.
+      </p>
+      <div class="input-group input-group-xs mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-xs"></span>
+        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+      </div>
+      <button class="btn btn-primary ms-2" type="button">Enviar</button>
+    </div>
+  </div>
+
+  <br>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 bg-dark text-white p-4">
+        <h3>Escríbenos</h3>
+        <br>
+        <form>
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label for="tipoContacto" class="form-label">Tipo de contacto</label>
+              <input type="text" class="form-control" id="tipoContacto" required>
+            </div>
+            <div class="col-md-6">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="nombre">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label for="tipoServicio" class="form-label">Tipo de servicio</label>
+              <input type="text" class="form-control" id="tipoServicio">
+            </div>
+            <div class="col-md-6">
+              <label for="sectorEconomico" class="form-label">Sector Económico</label>
+              <input type="text" class="form-control" id="sectorEconomico">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label for="nombreEmpresa" class="form-label">Nombre de la empresa</label>
+              <input type="text" class="form-control" id="nombreEmpresa">
+            </div>
+            <div class="col-md-6">
+              <label for="telefono" class="form-label">Teléfono</label>
+              <input type="text" class="form-control" id="telefono">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label for="email" class="form-label">E-Mail</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+      <div class="col-md-6 d-flex align-items-center bg-dark text-white p-4">
+        <div>
+          <h2>PBX (601) 3666 666</h2>
+          <p>Área comercial: 3166669871</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+{
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    .navbar {
+        background-color: #030000; 
+        overflow: hidden;
+    }
+    .navbar-nav {
+        margin: 0; 
+        padding: 0; 
+    }
+    .navbar-nav .nav-item {
+        margin-right: 30px; 
+    }
+    .navbar-nav .nav-link {
+        color: white;
+        text-align: center;
+        padding: 20px 20px; 
+        text-decoration: none;
+        font-size: 1.5rem; 
+    }
+    .navbar-nav .nav-link:hover {
+        background-color: #005B93; 
+        color: white; 
+    }
+    .navbar-brand img {
+        width: 200px; 
+        height: auto; 
+        margin-right: 80px; 
+    }
+    .navbar-toggler {
+        border-color: transparent; 
+    }
+    .navbar-nav li {
+        display: flex;
+        align-items: center; 
+    }
+    .slider-container {
+        margin-top: 30px; 
+    }
+    .carousel-item img {
+        height: 100%; 
+        object-fit: cover; 
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: rgba(0, 0, 0, 0.5); 
+        width: 50px; 
+        height: 50px; 
+  
+        }
+.contenedor1 {
+    background-color: #0A4163; /* Color de fondo azul */
+    color: white; /* Color de texto blanco */
+    padding: 40px; /* Espaciado interno */
+    border-radius: 8px; /* Esquinas redondeadas */
+    text-align: justify: 60px; 
+}
+
+.btn1 {
+    display: inline-block;
+    padding: 9px 20px;
+    text-align: justify;
+    color: #fff; /* Color del texto */
+    background-color: #0A4163; /* Sin fondo */
+    border: none; /* Borde del botón */
+    border-radius: 9px; /* Bordes redondeados */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave */
+	font-size: 30px;
+	 text-align: center; /* Centra el botón en el contenedor */
+    margin: 1px; /* Espacio alrededor del contenedor */
+}
+.btn {
+    display: inline-block;
+    padding: 9px 20px;
+    text-align: center;
+    color: #fff; /* Color del texto */
+    background-color: #0A4163; /* Sin fondo */
+    border: none; /* Borde del botón */
+    border-radius: 9px; /* Bordes redondeados */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave */
+	font-size: 20px;
+	 text-align: center; /* Centra el botón en el contenedor */
+    margin: 20px; /* Espacio alrededor del contenedor */
+}
+
+	
+  
+
